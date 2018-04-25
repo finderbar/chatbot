@@ -4,7 +4,7 @@
   "description": "chatbot",
   "author": "finder",
   "license": "ISC",
-  "main": "server/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "node index.js",
     "build": "next build",
@@ -45,6 +45,8 @@
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "bootstrap-material-design": "^4.1.1",
+    "babel-plugin-inline-dotenv": "^1.1.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.0",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "isomorphic-fetch": "^2.2.1",

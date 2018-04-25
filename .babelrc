@@ -1,0 +1,12 @@
+{
+  "plugins": [[ "styled-jsx/babel", { "optimizeForSpeed": true } ]],
+  "presets": [ "next/babel" ],
+  "env": {
+    "development": {
+      "plugins": ["inline-dotenv"]
+    },
+    "production": {
+      "plugins": ["transform-inline-environment-variables"]
+    }
+  }
+}
