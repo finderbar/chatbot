@@ -56,7 +56,6 @@
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-simple-chatbot": "^0.2.9",
     "styled-jsx": "^2.2.6",
     "underscore": "^1.8.3"
   }

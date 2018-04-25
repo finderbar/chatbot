@@ -25,6 +25,7 @@ export default class extends Document {
           <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
           <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js"></script>
           <script src="https://www.paypalobjects.com/api/checkout.js" data-version-4></script>
+
         </Head>
         <body style={{ backgroundColor: "#d6d6d6" }}>
           <Main />

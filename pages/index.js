@@ -1,23 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ChatBot from 'react-simple-chatbot';
-
 import App from '../components/App';
-
-
-const steps = [
-  {
-    id: '0',
-    message: 'Welcome to react chatbot!',
-    trigger: '1',
-  },
-  {
-    id: '1',
-    message: 'Bye!',
-    end: true,
-  },
-];
-
 
 class Home extends Component {
   constructor(props) {
@@ -45,10 +28,11 @@ class Home extends Component {
 
           <div className="container">
             <div className="row">
-            dfdasfdsafdsaf
-              <ChatBot
-                steps={steps}
-                />
+              <iframe
+                width="350"
+                height="430"
+                src="https://console.dialogflow.com/api-client/demo/embedded/339d784c-9ea6-405d-9395-bfad211d81de">
+              </iframe>
             </div>
           </div>
           <style>{`
