@@ -8,43 +8,30 @@ class Home extends Component {
     this.state = {
       loading: false,
     }
-    this.handleClick = this.handleClick.bind(this);
   }
-
-  handleClick(value) {
-    this.setState({
-      redirectUrl: `${domainURI}merchant_payment_methods`,
-      transitionId: "ZkkL5nCXsHk8tcHjJ"
-    });
-
-  }
-
   render() {
     const { loading } = this.state;
     const btnText = loading ? (<img width="20" src="static/loading.gif"/>) : '';
     return (
       <App>
         <div className="main-body">
-
-          <div className="container">
-            <div className="row">
-              <iframe
-                width="350"
-                height="430"
-                src="https://console.dialogflow.com/api-client/demo/embedded/339d784c-9ea6-405d-9395-bfad211d81de">
-              </iframe>
-            </div>
+          <div className="getbot">
+            <iframe
+              width="350"
+              height="430"
+              src="https://console.dialogflow.com/api-client/demo/embedded/339d784c-9ea6-405d-9395-bfad211d81de"
+            />
           </div>
           <style>{`
             .main-body {
-              min-height: 80vh;
-              padding: 20px;
+              min-height: 100vh;
+              display: flex;
             }
-            .container {
-              margin-bottom: 20px;
-            }
-            .rsc {
-              margin: 50px auto
+            .getbot {
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: center;
             }
           `}</style>
         </div>
