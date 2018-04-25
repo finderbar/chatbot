@@ -1,8 +1,8 @@
 {
-  "name": "devgetpay",
+  "name": "chatbot",
   "version": "0.0.1",
-  "description": "devgetpay",
-  "author": "getall",
+  "description": "chatbot",
+  "author": "finder",
   "license": "ISC",
   "main": "server/index.js",
   "scripts": {
